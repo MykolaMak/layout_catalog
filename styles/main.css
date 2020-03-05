@@ -70,8 +70,8 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s; }
+    -webkit-transition: 0.4s;
+    transition: 0.4s; }
   .nav__link:hover,
   .nav .is-active {
     color: #00acdc; }
@@ -137,10 +137,8 @@ p {
     border: 3px solid transparent;
     border-radius: 5px;
     padding-top: 15px;
-    -webkit-transition: -webkit-transform 0.9s;
-    transition: -webkit-transform 0.9s;
-    transition: transform 0.9s;
-    transition: transform 0.9s, -webkit-transform 0.9s; }
+    -webkit-transition: 0.9s;
+    transition: 0.9s; }
     .products__card-image:hover {
       border: 3px solid #eee;
       -webkit-transform: scale(1.2);
@@ -209,8 +207,8 @@ p {
     margin-top: 20px;
     border-radius: 5px;
     background-color: #00acdc;
-    -webkit-transition: trnsform 0.4s;
-    transition: trnsform 0.4s; }
+    -webkit-transition: 0.4s;
+    transition: 0.4s; }
   .products__card-button-link:hover {
     background-color: #fff;
     color: #00acdc;
