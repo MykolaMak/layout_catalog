@@ -74,8 +74,6 @@ p {
             transition-duration: 0.4s; }
   .nav__link:hover,
   .nav .is-active {
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
     color: #00acdc; }
   .nav .is-active:after {
     content: "";
@@ -146,11 +144,7 @@ p {
     .products__card-image:hover {
       border: 3px solid #eee;
       -webkit-transform: scale(1.2);
-              transform: scale(1.2);
-      -webkit-transition: -webkit-transform 0.9s;
-      transition: -webkit-transform 0.9s;
-      transition: transform 0.9s;
-      transition: transform 0.9s, -webkit-transform 0.9s; }
+              transform: scale(1.2); }
   .products__card-description {
     margin-top: 45px; }
   .products__card-description-name {
@@ -215,15 +209,13 @@ p {
     margin-top: 20px;
     border-radius: 5px;
     background-color: #00acdc;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s; }
+    -webkit-transition: trnsform 0.4s;
+    transition: trnsform 0.4s; }
   .products__card-button-link:hover {
     background-color: #fff;
     color: #00acdc;
     border: 1px solid #00acdc;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s; }
+            box-sizing: border-box; }
 
 /*# sourceMappingURL=main.css.map */
